@@ -1,12 +1,20 @@
 {
   "name": "first",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lite-server"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "pixeltoo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavperrin/first.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xavperrin/first/issues"
+  },
+  "homepage": "https://github.com/xavperrin/first#readme",
+  "main": "01-why-typescript.js",
+  "description": ""
 }
