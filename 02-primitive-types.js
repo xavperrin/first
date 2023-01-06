@@ -15,4 +15,10 @@ if (published) {
 printCourse(title, subtitle, lessonsCount);
 function printCourse(title, subtitle, lessonCount) {
     var fullTitle = "".concat(title, " : ").concat(subtitle);
+    console.log("type before " + typeof fullTitle);
 }
+var course = {
+    title: "Typescript Bootcamp",
+    subtitle: "Learn the language fundamentals, build practical projects",
+    lessonsCount: 10
+};
