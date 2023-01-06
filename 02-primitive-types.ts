@@ -26,9 +26,15 @@ function printCourse(title: string , subtitle:string, lessonCount:number){
     console.log("type before "+ typeof fullTitle);
 }
 
-const course:object={
+const course={
     title:"Typescript Bootcamp",
     subtitle: "Learn the language fundamentals, build practical projects",
-    lessonsCount: 10
+    lessonsCount: 10,
+    author:{
+        firstname:"Vasco",
+        lastname:"Cavalheiro"
+    }
 }
 
+
+console.log("type of course"+ typeof course)

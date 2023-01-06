@@ -22,3 +22,4 @@ var course = {
     subtitle: "Learn the language fundamentals, build practical projects",
     lessonsCount: 10
 };
+console.log("type of course" + typeof course);
