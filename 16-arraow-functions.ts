@@ -1,6 +1,6 @@
-function saveCourse (course, callback: Function) {
+function saveCourse (course, toto_callback: Function) {
     setTimeout(function () {
-        callback("success")
+        toto_callback("success")
     }, 1000);
 
 
