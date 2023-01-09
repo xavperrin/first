@@ -12,3 +12,4 @@ var otherCourse = {
     subtitle: "Learn the language fundamentals, build practical p Paramat"
 };
 console.log(course);
+console.log(otherCourse);

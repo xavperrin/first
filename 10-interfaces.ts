@@ -5,7 +5,7 @@ interface Author {
 
 
 interface Course{
-    title:string;
+    readonly title:string;
     subtitle:string;
     lessonsCount?:number;
     author?:Author;
@@ -23,6 +23,7 @@ const course:Course={
 }
 
 
+
 const otherCourse:Course={
     title: "Typescript Bootcamp v2",
     subtitle: "Learn the language fundamentals, build practical p Paramat"
@@ -30,3 +31,4 @@ const otherCourse:Course={
 }
 
 console.log(course);
+console.log(otherCourse);
