@@ -5,7 +5,7 @@ export  const TYPESCRYPT_COURSE={
     lessonsCount: 10
 };
 
-export function printcourse(course){
+export default function printcourse(course){
     console.log('Course title is' , course.title);
 
 };

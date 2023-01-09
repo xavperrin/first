@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.printcourse = exports.TYPESCRYPT_COURSE = exports.COURSE_TOTAL = void 0;
+exports.TYPESCRYPT_COURSE = exports.COURSE_TOTAL = void 0;
 exports.COURSE_TOTAL = 20;
 exports.TYPESCRYPT_COURSE = {
     title: "Typescript Bootcamp",
@@ -10,5 +10,5 @@ exports.TYPESCRYPT_COURSE = {
 function printcourse(course) {
     console.log('Course title is', course.title);
 }
-exports.printcourse = printcourse;
+exports["default"] = printcourse;
 ;
