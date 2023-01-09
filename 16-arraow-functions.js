@@ -3,6 +3,5 @@ function saveCourse(course, toto_callback) {
         toto_callback("success");
     }, 1000);
 }
-saveCourse({ title: "Typescript Bootcamp " }, function () {
-    console.log("Save successful. ");
-});
+saveCourse({ title: "Typescript Bootcamp " }, function () { return console.log("Save successful. "); });
+console.log(true>1);

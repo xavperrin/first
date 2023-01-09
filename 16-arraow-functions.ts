@@ -1,12 +1,8 @@
 function saveCourse (course, toto_callback: Function) {
-    setTimeout(function () {
+    setTimeout(()=> {
         toto_callback("success")
     }, 1000);
 
 
 }
-saveCourse ({title: "Typescript Bootcamp "},
-        function(){
-        console. log("Save successful. ") ;
-
-    });
+saveCourse ({title: "Typescript Bootcamp "},()=>   console. log("Save successful. ") );
