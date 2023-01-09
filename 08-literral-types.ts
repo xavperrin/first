@@ -10,7 +10,7 @@ pageSize=10;
 
 let courseStatus:"draft"|"published"|"unpublished"|"archived"="draft";
 
-//courseStatus="archived";
+courseStatus="new";
 
 console.log("course status :", courseStatus);
 
