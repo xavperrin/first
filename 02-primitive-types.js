@@ -20,6 +20,11 @@ function printCourse(title, subtitle, lessonCount) {
 var course = {
     title: "Typescript Bootcamp",
     subtitle: "Learn the language fundamentals, build practical projects",
-    lessonsCount: 10
+    lessonsCount: 10,
+    author: {
+        firstname: "Vasco",
+        lastname: "Cavalheiro"
+    }
 };
 console.log("type of course" + typeof course);
+console.log(course.author.lastname);

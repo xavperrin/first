@@ -38,3 +38,4 @@ const course={
 
 
 console.log("type of course"+ typeof course)
+console.log(course.author.lastname);
