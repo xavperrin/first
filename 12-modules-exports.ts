@@ -1,4 +1,8 @@
+import {MAX_PAGE_SIZE} from "./12-modules-imports";
+
 export const PAGE_SIZE=100;
+
+const toto=MAX_PAGE_SIZE;
 
 type Author={
     firstname:string,
