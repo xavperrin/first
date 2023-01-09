@@ -9,11 +9,6 @@ var course = {
 };
 var otherCourse = {
     title: "Typescript Bootcamp v2",
-    subtitle: "Learn the language fundamentals, build practical p Paramat",
-    lessonsCount: 10,
-    author: {
-        firstname: "Umberto",
-        lastname: "Eco"
-    }
+    subtitle: "Learn the language fundamentals, build practical p Paramat"
 };
 console.log(course);
