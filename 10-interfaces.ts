@@ -10,6 +10,7 @@ interface Course{
     lessonsCount?:number;
     author?:Author;
 
+
 }
 
 const course:Course={
@@ -29,6 +30,15 @@ const otherCourse:Course={
     subtitle: "Learn the language fundamentals, build practical p Paramat"
 
 }
+
+
+interface Course{
+    pages?:number
+}
+
+
+let course2: Course;
+course2 = {title: "toto", subtitle: "tata", pages:10};
 
 console.log(course);
 console.log(otherCourse);
